@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0; }
 
+/* HEADER */
 .nav {
   width: 100%;
   text-align: center;
@@ -10,5 +11,19 @@ body {
 
 .nav-item {
   margin: 0 1rem; }
+
+#headerImage {
+  padding: 0; }
+
+.img-fluid {
+  margin-top: 3.5rem;
+  width: 100vw; }
+
+/* MAIN */
+#projects {
+  margin: 2rem 0; }
+  #projects h2 {
+    text-align: center;
+    color: #005CBF; }
 
 /*# sourceMappingURL=main.css.map */

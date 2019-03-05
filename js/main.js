@@ -1,13 +1,15 @@
 $(document).ready(function(){
-	if($(window).width()<768)
+	var width = $(window).width();
+	var navWidth = width/3;
+	if(width<768)
 	{
+		$("ul.nav").removeClass("justify-content-end");
 		$("ul.nav").addClass("nav-justified");
-    	$("ul.nav").removeClass("nav-content-end");
   	}
   	else
   	{
-  		$("ul.nav").addClass("nav-content-end");
-    	$("ul.nav").removeClass("nav-justified");
+  		$(".nav-item").css("width","navWidth");
+  		$("ul.nav").addClass("justify-content-end");
   	}
 });
 
