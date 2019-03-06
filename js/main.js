@@ -1,6 +1,8 @@
+var width;
 $(document).ready(function(){
-	var width = $(window).width();
+	width = $(window).width();
 	var navWidth = width/3;
+	var welcomeHeader = $("#welcomeHeader h1");
 	if(width<768)
 	{
 		$("ul.nav").removeClass("justify-content-end");
@@ -15,7 +17,11 @@ $(document).ready(function(){
 
 
 $(window).resize(function() {
-  		if($(window).width()< 768)
+		var currentWidth = $(window).width();
+		var extraWidth = currentWidth - width;
+		// alert("width extra:" + extraWidth);
+		
+  		if(currentWidth < 768)
   			$("ul.nav").addClass("nav-justified");
   		else{
   			$("ul.nav").removeClass("nav-justified");	

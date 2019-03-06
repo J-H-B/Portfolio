@@ -1,3 +1,5 @@
-
+@media (min-width: 400px) {
+  #welcomeHeader h1 {
+    top: 70vh; } }
 
 /*# sourceMappingURL=_mediaQueries.css.map */

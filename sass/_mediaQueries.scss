@@ -1,6 +1,14 @@
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
+@media (min-width: 400px){
+	#welcomeHeader{
+		h1{
+			top: 100vh - 30vh;
+		}
+	}
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 	
@@ -8,7 +16,9 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-	
+	#icons{
+		// margin-bottom: 5rem;
+	}
 }
 
 // Large devices (desktops, 992px and up)

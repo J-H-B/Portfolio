@@ -18,43 +18,150 @@
 		<div class="container-fluid">
 			<div class="row ">
 				<div class="col-12 ">
-					<nav class="navbar fixed-top navbar-dark bg-dark">
+					<nav class="navbar fixed-top navbar-dark bg-dark" id ="navbar">
 						<ul class="nav">
 							<li class="nav-item ">
-							    <a class="nav-link" href="#">About</a>
+							    <a class="nav-link" href="#welcomeSection">About</a>
 							</li>
 							<li class="nav-item ">
 							    <a class="nav-link" href="#projects">Work</a>
 							</li>
 							<li class="nav-item " >
-							    <a class="nav-link" href="#">Contact</a>
+							    <a class="nav-link" href="#work">Contact</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid" id = "headerImage">
+		<div class="container-fluid" id = "welcomeSection">
 			<div class="row" >
 				<div class="col-12">
-					<section id = "welcome">
-						<img class = "img-fluid" src="images/work.jpg">
-					</section>
+					<h1 class="text-center align-center">Hi, I'm Jana.</h1>
+					<h3 class="text-center align-center">An Expert Web Developer.</h3>
 				</div>
 			</div>
 		</div>
 	</header>
 
 	<!-- MAIN -->
-	<section id = "projects">
+	<main>
+		<section id = "projects">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<h2>Here are some of my projects ...</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center" id = "projectThumbnails">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<a class = "project-tile" href="https://github.com/J-H-B/AppTheme" target="_blank">
+							<figure>
+								<img class = "img-fluid" src="images/apptheme.png">
+								<figcaption class="text-center p-2">AppTheme</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<a class = "project-tile" href="https://github.com/J-H-B/Tribute-Page" target="_blank">
+							<figure>
+								<img class = "img-fluid" src="images/TributePage.png">
+								<figcaption class="text-center p-2">Tribute Page</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<a class = "project-tile" href="https://github.com/J-H-B/Original-Trombones" target="_blank">
+							<figure>
+								<img class = "img-fluid" src="images/OriginalTrombones.png">
+								<figcaption class="text-center p-2">Original Trombones</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<a class = "project-tile" href="https://github.com/J-H-B/TechnicalDocumentationPage" target="_blank">
+							<figure>
+								<img class = "img-fluid" src="images/TechnicalDocumentation.png">
+								<figcaption class="text-center p-2">Technical Documentation Page</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Lets Work Together -->
+		<section id= "work">
+			<div class="container-fluid">
+				<div class="row text-center" id ="title">
+					<div class="col-12">
+						<h1>Let's Work Together</h1>
+						<h3>How do you take your coffee?</h3>
+					</div>
+				</div>
+				<div class="row text-center" id = "icons">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "facebook" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+							<p>Facebook</p>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "github" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fab fa-github-square"></i>
+							</a>
+							<p>Github</p>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "twitter" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+							<p>Twitter</p>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "linkedin" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fab fa-linkedin"></i>
+							</a>
+							<p>LinkedIn</p>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "email" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fas fa-envelope"></i>
+							</a>
+							<p>Email</p>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+						<div id = "call" class="d-sm-inline d-md-inline d-lg-inline">
+							<a href="">
+								<i class="fas fa-phone-square"></i>
+							</a>
+							<p>Call</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12">
-					<h2>These are some of my projects</h2>
+				<div class="col-12 bg-dark">
+					<p class="text-center p-4 align-center">&copy; Copyright 2019 | All Rights Reserved to Jaazbe</p>
 				</div>
 			</div>
 		</div>
-	</section>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

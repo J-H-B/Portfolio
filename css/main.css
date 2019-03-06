@@ -1,29 +1,86 @@
+@media (min-width: 400px) {
+  #welcomeHeader h1 {
+    top: 70vh; } }
 html,
-body {
+body,
+.container-fluid,
+.row {
   padding: 0;
   margin: 0; }
 
 /* HEADER */
-.nav {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto; }
+nav {
+  width: 100vw;
+  padding: 0;
+  background-color: #608ABD; }
+  nav .nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; }
+  nav .nav-item {
+    margin: 0 1rem; }
+    nav .nav-item a {
+      color: #fff; }
 
-.nav-item {
-  margin: 0 1rem; }
-
-#headerImage {
-  padding: 0; }
-
-.img-fluid {
-  margin-top: 3.5rem;
-  width: 100vw; }
+#welcomeSection {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  background-color: #3B5F75; }
+  #welcomeSection .col-12 {
+    padding: 0; }
+  #welcomeSection h1 {
+    margin-top: 50vh;
+    font-style: bold;
+    color: #000; }
+  #welcomeSection h3 {
+    color: #fff; }
 
 /* MAIN */
 #projects {
-  margin: 2rem 0; }
+  width: 100vw;
+  margin: 5rem 0 2rem 0; }
   #projects h2 {
     text-align: center;
-    color: #005CBF; }
+    color: #2E4A5C; }
+  #projects #projectThumbnails {
+    margin: 3rem 1rem 0 1rem; }
+    #projects #projectThumbnails img {
+      padding: 1em;
+      border: 1px solid #426B85; }
+    #projects #projectThumbnails .project-tile {
+      text-decoration: none; }
+      #projects #projectThumbnails .project-tile figure {
+        margin-bottom: 2rem; }
+        #projects #projectThumbnails .project-tile figure figcaption {
+          color: #fff;
+          background-color: #3B5F75;
+          border: 1px solid #426B85; }
+        #projects #projectThumbnails .project-tile figure figcaption:hover {
+          font-size: 1.2rem; }
+      #projects #projectThumbnails .project-tile figure:hover {
+        border: .2rem solid #426B85;
+        border-radius: .7rem; }
+
+#work .row {
+  background-color: #46728C; }
+  #work .row h1 {
+    margin-top: 10rem;
+    color: #fff; }
+  #work .row h3 {
+    color: #333;
+    margin-bottom: 7rem; }
+#work #icons {
+  padding-bottom: 4rem; }
+  #work #icons i {
+    font-size: 4rem;
+    color: #fff; }
+  #work #icons p {
+    color: #fff; }
+
+/* FOOTER */
+footer p {
+  color: #fff;
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
